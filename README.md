@@ -37,14 +37,6 @@ We developed a crisis management framework focusing on peak energy consumption p
    - Critical for immediate use or continuous operation
    - Examples: Iron, refrigerator
 
-## Implementation Approaches
-The system can be implemented as either:
-- An automated control system
-- A recommendation system
-
-## Results
-Our hour-by-hour analysis demonstrates potential energy bill reductions of **17%** through intelligent scheduling and management of appliance usage.
-
 ## Models Comparison
 We compared multiple machine learning models to achieve the most accurate predictions:
 - **LSTM** 
@@ -52,6 +44,14 @@ We compared multiple machine learning models to achieve the most accurate predic
 - **Random Forest Regressor**
 
 LSTM is typically more successful in capturing sequential relationships in time series data. It has been observed that LSTM tends to exhibit a lower propensity for overfitting compared to other models.
+
+## Results
+Our hour-by-hour analysis demonstrates potential energy bill reductions of **17%** through intelligent scheduling and management of appliance usage.
+
+## Implementation Approaches
+The system can be implemented as either:
+- An automated control system
+- A recommendation system
 
 ## Note
 The appliance classification system was developed assuming prior consultation with homeowners to ensure practical applicability and user acceptance.
