@@ -1,6 +1,61 @@
-# Smart Home Energy Optimization Project
-I am currently developing my Smart Home Energy Optimization project. This project aims to adjust the household's electricity consumption and optimize electricity plans to minimize the electricity bill. To predict future consumption, I've employed three different models: LSTM Neural Network, Random Regressor, and SVM. The model that demonstrated the best performance among these was the LSTM, which is used to generate future consumption forecasts.
+# Smart Home Energy Consumption Optimization
 
-The forecasted data is utilized to identify peak points during crisis scenarios, determining how household appliances should respond. Appliances are categorized as flexible, semi-flexible, and inflexible, exhibiting different behaviors based on crisis situations. This approach significantly improves hourly billing.
+## Overview
+This project focuses on optimizing household energy consumption through predictive analytics and intelligent device management. By analyzing energy consumption patterns of household appliances and leveraging machine learning techniques, we achieved potential energy bill savings of up to **17%**.
 
-Details about the project are thoroughly explained in the comments and markdowns within the "Data-Mining-Project1.ipynb" file. The most significant outcome is expected to provide homeowners with approximately a 17% reduction in their bills.
+## Data Analysis
+The dataset includes detailed energy consumption data from various household appliances along with comprehensive weather information. Our analysis pipeline includes:
+- Correlation analysis between different variables
+- Anomaly detection using **SMA** (Simple Moving Average) and **EMA** (Exponential Moving Average)
+- Predictive modeling using multiple algorithms:
+  - **LSTM** (Long Short-Term Memory)
+  - **SVM** (Support Vector Machine)
+  - **Random Forest Regressor**
+
+## Crisis Management Framework
+We developed a crisis management framework focusing on peak energy consumption periods. The framework categorizes household appliances into three classes based on flexibility in operation timing and performance adjustments:
+
+1. **Flexible Appliances**
+   - Can be rescheduled without significant impact on user convenience
+   - Operating times can be shifted to off-peak hours
+   - Example: Lawn mower
+
+2. **Semi-Flexible Appliances**
+   - Operating time cannot be changed, but performance can be adjusted
+   - Can switch to eco-mode during peak consumption periods
+   - Example: Washing machine (can run in economy mode)
+
+3. **Inflexible Appliances**
+   - No flexibility in either timing or performance
+   - Critical for immediate use or continuous operation
+   - Examples: Iron, refrigerator
+
+## Implementation Approaches
+The system can be implemented as either:
+- An automated control system
+- A recommendation system
+
+## Results
+Our hour-by-hour analysis demonstrates potential energy bill reductions of **17%** through intelligent scheduling and management of appliance usage.
+
+## Dataset Features
+The analysis uses a comprehensive dataset including:
+- Energy consumption metrics for various appliances
+- Weather data (temperature, humidity, visibility, etc.)
+- Time-series data with 1-minute intervals
+- Solar power generation data
+
+## Models Comparison
+We compared multiple machine learning models to achieve the most accurate predictions:
+- **LSTM** for sequence prediction
+- **SVM** for pattern recognition
+- **Random Forest Regressor** for consumption forecasting
+
+## Note
+The appliance classification system was developed assuming prior consultation with homeowners to ensure practical applicability and user acceptance.
+
+## Future Work
+- Real-time implementation of the optimization system
+- Integration with smart home platforms
+- Enhanced user interface for monitoring and control
+- Expansion of the appliance classification system
