@@ -47,9 +47,11 @@ Our hour-by-hour analysis demonstrates potential energy bill reductions of **17%
 
 ## Models Comparison
 We compared multiple machine learning models to achieve the most accurate predictions:
-- **LSTM** for sequence prediction
-- **SVM** for pattern recognition
-- **Random Forest Regressor** for consumption forecasting
+- **LSTM** 
+- **SVM** 
+- **Random Forest Regressor**
+
+LSTM is typically more successful in capturing sequential relationships in time series data. It has been observed that LSTM tends to exhibit a lower propensity for overfitting compared to other models.
 
 ## Note
 The appliance classification system was developed assuming prior consultation with homeowners to ensure practical applicability and user acceptance.
