@@ -3,6 +3,13 @@
 ## Overview
 This project focuses on optimizing household energy consumption through predictive analytics and intelligent device management. By analyzing energy consumption patterns of household appliances and leveraging machine learning techniques, we achieved potential energy bill savings of up to **17%**.
 
+## Dataset Features
+The analysis uses a comprehensive dataset including:
+- Energy consumption metrics for various appliances
+- Weather data (temperature, humidity, visibility, etc.)
+- Time-series data with 1-minute intervals
+- Solar power generation data
+
 ## Data Analysis
 The dataset includes detailed energy consumption data from various household appliances along with comprehensive weather information. Our analysis pipeline includes:
 - Correlation analysis between different variables
@@ -37,13 +44,6 @@ The system can be implemented as either:
 
 ## Results
 Our hour-by-hour analysis demonstrates potential energy bill reductions of **17%** through intelligent scheduling and management of appliance usage.
-
-## Dataset Features
-The analysis uses a comprehensive dataset including:
-- Energy consumption metrics for various appliances
-- Weather data (temperature, humidity, visibility, etc.)
-- Time-series data with 1-minute intervals
-- Solar power generation data
 
 ## Models Comparison
 We compared multiple machine learning models to achieve the most accurate predictions:
